@@ -6,12 +6,7 @@ Recuerde que la operación mod permite saber si el resto de una división es cer
 // Funciones a utilizar
 function esMultiplo(first_num:number , second_num:number):boolean
 {
-  if (first_num%second_num)
-    {
-    return false;
-    } else {
-        return true;
-        } 
+  return ((first_num%second_num)===0);
 }
 
 //Empiezo con mi programa main
